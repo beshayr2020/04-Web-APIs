@@ -1,0 +1,75 @@
+html,
+body {
+  background-color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow Bold", Arial, sans-serif;
+}
+
+h1 {
+  color: black;
+  /* text-decoration: underline;  */
+  font-size: 45px;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace, Haettenschweiler,
+    "Arial Narrow Bold", sans-serif;
+}
+
+h2,
+h5,
+a,
+span {
+  color: rgb(0, 0, 0);
+}
+
+.p-2 {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#score-list {
+  font-size: 21px;
+  color: rgb(0, 0, 0);
+  background-color : #8b7f96;
+}
+
+ol {
+  list-style: none;
+  counter-reset: li;
+}
+#startBtn {
+  color: #fff;
+  background-color: #4f0991;
+}
+li {
+  counter-increment: li;
+}
+
+li::before {
+  content: "." counter(li);
+  color: rgb(43, 43, 122);
+  display: inline-block;
+  width: 16px;
+  margin-left: -24px;
+  margin-right: 10px;
+  text-align: left;
+  direction: rtl;
+}
+
+#scoresTitle {
+  padding-left: 16px;
+}
+ 
+.btn-light,#highscores,#restartQuiz,#clearScores {
+  color: #cfeb8f;
+  background-color: #4f0991;
+  border-color: #f8f9fa;
+}
+.p-3 {
+  padding: 0.2rem !important;
+}
+.btn-block {
+  display: block;
+  width: 35%;
+}
+.btn {
+  text-align: left;
+}
