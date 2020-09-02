@@ -12,10 +12,10 @@ It will also feature a clean and polished user interface and be responsive, ensu
 <img src="assets/images/ProgressPage.jpg" alt="Progress Page">
 
 <i>All Done: </i>
-<img src="assets/images/alldonePage.jpg" alt="All Done">
+<img src="assets/images/AllDonePage.jpg" alt="All Done">
 
 <i>HighScores: </i>
-<img src="assets/images/HighscorePage.jpg" alt="Highscores Page">
+<img src="assets/images/Highscorepage.jpg" alt="Highscores Page">
 <i> 
 <a href="https://beshayr2020.github.io/04-Web-APIs/">Quiz Application</a>
 </i>
